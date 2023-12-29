@@ -37,7 +37,7 @@ int main() {
     
     //Input Operater + or -
     printf("Operator :   \n");
-    scanf("%c" , &op);
+    scanf(" %c" , &op);
 
     
     // เงื่อนไข + -
