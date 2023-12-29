@@ -2,7 +2,7 @@
 
 int main() {
     // ประกาศ array ขนาด 6
-    int A[6] , B[6] , Answer[7] , Sum[7];
+    int A[6] , B[6] , Answer[7] ;
     char op;
 
     //Input 6 round Number A 0-9
@@ -45,7 +45,7 @@ int main() {
     //เลือกตัวดำเนินการ +
     case '+':
         Answer[6] = 0 ;
-		Answer[5] = A[5] + B[5] , 
+	Answer[5] = A[5] + B[5] , 
         Answer[4] = A[4] + B[4] , 
         Answer[3] = A[3] + B[3] , 
         Answer[2] = A[2] + B[2] , 
